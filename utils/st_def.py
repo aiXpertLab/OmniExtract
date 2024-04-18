@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_extras.add_vertical_space import add_vertical_space
 
 def st_sidebar():
-    # st.sidebar.image("data/images/sslogo.png", use_column_width=True)
+    # st.sidebar.image("images/sslogo.png", use_column_width=True)
 
     with st.sidebar:
         # store_link = st.text_input("Enter Your Store URL:",   value="http://hypech.com/StoreSpark", disabled=True, key="store_link")
@@ -14,7 +14,7 @@ def st_sidebar():
     return openai_api_key
 
 def st_main_contents():
-        st.image("./data/images/zhang.gif")
+        st.image("./images/zhang.gif")
         # main_contents="""
         #     ### 🚀 Bridge the Gap: Chatbots for Every Store 🍨
         #     Tired of missing out on sales due to limited customer support options? Struggling to keep up with growing customer inquiries? Store Spark empowers you to seamlessly integrate a powerful ChatGPT-powered chatbot into your website, revolutionizing your customer service and boosting engagement. No coding required! No modifications for current site needed!
@@ -51,7 +51,7 @@ def st_text_preprocessing_contents():
     """)    
 
 def st_load_book():
-    st.image("./data/images/dataacquisition.png")
+    st.image("./images/dataacquisition.png")
 
 def st_read_pdf():
     st.markdown("""
@@ -61,14 +61,14 @@ A **better strategy** will be to split it on the basis of paragraphs. However, i
 
 We will store each page in a list and then summarize it.
     """)    
-    st.image("./data/images/book.png")
+    st.image("./images/book.png")
 
 def st_summary():
     st.markdown("Now we will start prompting. This is a matter of experiment to figure out the best prompt. However, there are a few basic guidelines on how to do it efficiently. In some upcoming articles, we will discuss the art of prompting in more detail. You can use the prompt for now, which has worked well for me. ")
-    # st.image("./data/images/featureengineering.png")
+    # st.image("./images/featureengineering.png")
 
 def st_case_study():
-        st.image("./data/images/NLP-Pipeline.png")
+        st.image("./images/NLP-Pipeline.png")
         # main_contents="""
         #     ### 🚀 Bridge the Gap: Chatbots for Every Store 🍨
         #     Tired of missing out on sales due to limited customer support options? Struggling to keep up with growing customer inquiries? Store Spark empowers you to seamlessly integrate a powerful ChatGPT-powered chatbot into your website, revolutionizing your customer service and boosting engagement. No coding required! No modifications for current site needed!

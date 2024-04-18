@@ -1,9 +1,9 @@
 import streamlit as st
-from utils.st_def import st_logo, st_load_book
+from utils import st_def
 import openai, PyPDF2, os, time, pandas as pd
 
-st_logo(title='Welcome 👋 to Book Summarizer!', page_title="PDF Summarizer",)
-st_load_book()
+st_def.st_logo(title='Welcome 👋 to Book Summarizer!', page_title="PDF Summarizer",)
+st_def.st_load_book()
 
 pdf1 = st.file_uploader('Upload your PDF Document', type='pdf')
 #-----------------------------------------------
