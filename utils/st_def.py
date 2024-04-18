@@ -13,18 +13,8 @@ def st_sidebar():
 
     return openai_api_key
 
-def st_main_contents():
-        st.image("./images/zhang.gif")
-        # main_contents="""
-        #     ### 🚀 Bridge the Gap: Chatbots for Every Store 🍨
-        #     Tired of missing out on sales due to limited customer support options? Struggling to keep up with growing customer inquiries? Store Spark empowers you to seamlessly integrate a powerful ChatGPT-powered chatbot into your website, revolutionizing your customer service and boosting engagement. No coding required! No modifications for current site needed!
-        #     ### 📄Key Features📚:
-        #     -  🔍 No Coding Required: Say goodbye to developer fees and lengthy website updates. Store Spark’s user-friendly API ensures a smooth integration process.
-        #     -  📰 Empower Your Business: Offer instant customer support, improve lead generation, and boost conversion rates — all with minimal setup effort.
-        #     -  🍨 Seamless Integration: Maintain your existing website design and user experience. Store Spark seamlessly blends in, providing a unified customer journey.
-        #     """
-    
-def st_logo(title="aiXpert!", page_title="Aritificial Intelligence"):
+   
+def st_logo(title="OmniExtract!", page_title="Aritificial Intelligence"):
     st.set_page_config(page_title,  page_icon="🚀",)
     st.title(title)
 
@@ -32,10 +22,10 @@ def st_logo(title="aiXpert!", page_title="Aritificial Intelligence"):
     """
     <style>
         [data-testid="stSidebarNav"] {
-            background-image: url(https://hypech.com/storespark/images/logohigh.png);
+            background-image: url(https://hypech.com/images/logo/omniextract.png);
             background-repeat: no-repeat;
-            padding-top: 80px;
-            background-position: 15px 10px;
+            padding-top: 40px;
+            background-position: 1px 40px;
         }
     </style>
     """,
